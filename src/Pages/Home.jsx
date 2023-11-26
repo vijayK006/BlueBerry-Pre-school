@@ -31,12 +31,49 @@ Where Every Child's Potential Blossoms!</p>
 
 <div className="container">
 <div className='row'>
-  <div className='col-md-4'>
+
+  <div className='col-md-4 pt-2 pb-2'>
     <div className="class-card">
       <div className='social-science'/>
       <p className='class-t-name'>Social Science</p>
     </div>
   </div>
+
+  <div className='col-md-4 pt-2 pb-2'>
+    <div className="class-card">
+      <div className='social-science'/>
+      <p className='class-t-name'>Science</p>
+    </div>
+  </div>
+
+  <div className='col-md-4 pt-2 pb-2'>
+    <div className="class-card">
+      <div className='social-science'/>
+      <p className='class-t-name'>Mathematics</p>
+    </div>
+  </div>
+
+  <div className='col-md-4 pt-2 pb-2'>
+    <div className="class-card">
+      <div className='social-science'/>
+      <p className='class-t-name'>English</p>
+    </div>
+  </div>
+
+  <div className='col-md-4 pt-2 pb-2'>
+    <div className="class-card">
+      <div className='social-science'/>
+      <p className='class-t-name'>Hindi</p>
+    </div>
+  </div>
+
+  <div className='col-md-4 pt-2 pb-2'>
+    <div className="class-card">
+      <div className='social-science'/>
+      <p className='class-t-name'>Marathi</p>
+    </div>
+  </div>
+
 </div>
 </div>
 
