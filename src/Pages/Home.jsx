@@ -2,6 +2,9 @@ import React from 'react'
 import Header from '../Header/Header'
 import Banner from '../Components/Banner'
 import { GiBookAura } from "react-icons/gi";
+import { FaCheck } from "react-icons/fa6";
+
+import sectionkidImg from '../img/kid-2.webp';
 
 const Home = () => {
   return (
@@ -9,6 +12,7 @@ const Home = () => {
     <Header/>
     <Banner/>
 
+{/* Our Top Classes Section*/}
 <section className='top-class  mt-5 pt-md-5  pb-md-5 pt-2 pb-2'>
 <div className='tagline-header pb-5'>
   <h2 className='text-center default-font'>Our Top Classes</h2>
@@ -76,9 +80,45 @@ Where Every Child's Potential Blossoms!</p>
 
 </div>
 </div>
-
-
 </section>
+
+{/* About Us Section */}
+<div className='bg-blue'>
+  <section className="container position-relative pt-5 pb-5">
+<div className="row">
+<div className='col-md-6'>
+<img src={sectionkidImg} className='section-img1' alt='img'/>
+</div>
+<div className='col-md-6'>
+
+<div className="about-content">
+<h5 className='default-font pb-1'>About us</h5>
+<h3 className='default-font pb-2'>Welcome to <span  style={{color:"#272974", fontWeight:"550"}}>Blue Berry International School</span></h3>
+
+<p className='default-font'>At Blue Berry International School, we believe that every child's
+ journey in education is a unique and exciting adventure.
+ We invite you to be a part of the Blue Berry family, where education is not 
+ just a process but a journey filled with discovery and growth. </p>
+ 
+ <ul>
+  <li><FaCheck className="icon"/> Innovative Teaching Methods</li>
+  <li><FaCheck className="icon"/> Qualified Educators</li>
+  <li><FaCheck className="icon"/> Safe and Stimulating Environment</li>
+  <li><FaCheck className="icon"/> Interactive Learning Resources</li>
+ </ul>
+</div>
+
+
+
+</div>
+</div>
+
+<div className='shape-kite'/>
+<div className='shape-book'/>
+<div className='shape-ovel'/>
+<div className='shape-ovel2'/>
+</section>
+</div>
 
     </>
   )
