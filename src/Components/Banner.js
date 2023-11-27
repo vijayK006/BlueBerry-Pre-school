@@ -10,7 +10,7 @@ import { BsPeople } from "react-icons/bs";
 const Banner = () => {
   return (
     <>
-    <div className='mainbanner'>
+    <div className='mainbanner overflow-hidden'>
         <div className='container'>
 <div className='row py-5 align-items-center' >
     <div className='col-md-7'>
