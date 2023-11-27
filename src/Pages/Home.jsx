@@ -5,6 +5,7 @@ import { GiBookAura } from "react-icons/gi";
 import { FaCheck } from "react-icons/fa6";
 
 import sectionkidImg from '../img/kid-2.webp';
+import Enquireform from '../Components/Enquireform';
 
 const Home = () => {
   return (
@@ -133,6 +134,7 @@ glance at our school. We hope you find the information useful and interesting </
 <div className='shape-ovel2'/>
 </section>
 </div>
+
 
     </>
   )

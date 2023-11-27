@@ -9,14 +9,14 @@ const Topheader = () => {
     <>
       <div className='tophader'>
 <div className='header-content'>
-<a href='tel:123 4561 5523'><p><IoCall/> <span>91xx xxx xxx</span></p></a>
-<a href='mailto:info@blueberry.com'><p><IoMdMail/> <span>info@blueberry.com</span> </p></a>
+<a href='tel:+91 9552886677'><p><IoCall /><span>9552886677</span></p></a>
+<a href='mailto:info@blueberry.com'><p><IoMdMail /><span>info@blueberry.com</span></p></a>
 
 <div className='social'>
-<a href=''><GrFacebookOption className='icon'/></a>
-<a href=''><AiFillInstagram className='icon'/></a>
-<a href=''><IoLogoTwitter className='icon'/></a>
-<a href=''><FaLinkedinIn className='icon'/></a>
+<a href='https://www.facebook.com/blueberryinternationalpreschool' target='_blank' rel="noreferrer"><GrFacebookOption className='icon'/></a>
+<a href='https://instagram.com/blueberry_international_ps?igshid=YmMyMTA2M2Y=' target='_blank' rel="noreferrer"><AiFillInstagram className='icon'/></a>
+{/* <a href=''><IoLogoTwitter className='icon'/></a>
+<a href=''><FaLinkedinIn className='icon'/></a> */}
 
 </div>
 </div>

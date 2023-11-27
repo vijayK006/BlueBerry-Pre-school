@@ -5,9 +5,16 @@ import { MdVideoSettings } from "react-icons/md";
 import { FaPersonChalkboard } from "react-icons/fa6";
 import { PiCertificate } from "react-icons/pi";
 import { BsPeople } from "react-icons/bs";
+import Enquireform from './Enquireform';
 
 
 const Banner = () => {
+
+const openFormModule=()=>{
+  document.getElementById('formModule').classList.add('togglemodel');
+
+}
+
   return (
     <>
     <div className='mainbanner overflow-hidden'>
@@ -28,7 +35,7 @@ beyond the parameters of bookish education because we know the basics of child m
 As a child does something not because the teacher told but an inner curiosity in him/her the
 desire to do it.</p> 
 
-        <Link className="banner-btn">Join Us Now</Link>
+        <Link className="banner-btn" onClick={openFormModule}>Join Us Now</Link>
 
        
 
@@ -96,7 +103,7 @@ desire to do it.</p>
   </div>
 </div>
 </div>
-
+<Enquireform /> 
     </>
   )
 }
