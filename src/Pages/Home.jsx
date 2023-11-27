@@ -83,7 +83,7 @@ Where Every Child's Potential Blossoms!</p>
 </section>
 
 {/* About Us Section */}
-<div className='bg-blue overflow-hide'>
+<div className='bg-blue overflow-hidden'>
   <section className="container position-relative pt-5 pb-5">
 <div className="row">
 <div className='col-md-6'>
