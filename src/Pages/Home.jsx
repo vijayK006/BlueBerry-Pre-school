@@ -83,7 +83,7 @@ Where Every Child's Potential Blossoms!</p>
 </section>
 
 {/* About Us Section */}
-<div className='bg-blue'>
+<div className='bg-blue overflow-hide'>
   <section className="container position-relative pt-5 pb-5">
 <div className="row">
 <div className='col-md-6'>
@@ -93,19 +93,33 @@ Where Every Child's Potential Blossoms!</p>
 
 <div className="about-content">
 <h5 className='default-font pb-1'>About us</h5>
-<h3 className='default-font pb-2'>Welcome to <span  style={{color:"#272974", fontWeight:"550"}}>Blue Berry International School</span></h3>
+<h3 className='default-font pb-2'>Unveiling the Path to Early <span  style={{color:"#272974", fontWeight:"550"}}>Education Excellence.</span></h3>
 
-<p className='default-font'>At Blue Berry International School, we believe that every child's
- journey in education is a unique and exciting adventure.
- We invite you to be a part of the Blue Berry family, where education is not 
- just a process but a journey filled with discovery and growth. </p>
+<p className='default-font'>Choosing the right preschool, where the basic stepping stone is built in every child is a
+challenging decision for every parent of today but our prospectus over here you an insight
+glance at our school. We hope you find the information useful and interesting </p>
  
- <ul>
-  <li><FaCheck className="icon"/> Innovative Teaching Methods</li>
-  <li><FaCheck className="icon"/> Qualified Educators</li>
-  <li><FaCheck className="icon"/> Safe and Stimulating Environment</li>
-  <li><FaCheck className="icon"/> Interactive Learning Resources</li>
- </ul>
+ <h5 className='default-font pt-3'>Our Values</h5>
+ <div className='container-fluid'>
+   <div className='row'>
+  <div className='col-md-5 col-6'>
+    <ul>
+    <li><FaCheck className="icon"/> Aspirations</li>
+  <li><FaCheck className="icon"/> Integrity</li>
+  <li><FaCheck className="icon"/> Happiness</li>
+    </ul>
+  </div>
+  <div className='col-md-5 col-6'>
+    <ul>
+    <li><FaCheck className="icon"/> Kindness</li>
+  <li><FaCheck className="icon"/> Creativity</li>
+  <li><FaCheck className="icon"/> Respect</li>
+    </ul>
+  </div>
+ </div>
+ </div>
+
+
 </div>
 
 
