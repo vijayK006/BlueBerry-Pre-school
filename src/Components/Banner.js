@@ -19,13 +19,15 @@ const Banner = () => {
     <div className='shape-round-yellow'/>
 
 
-         <h1>Where Innocence Meets <span style={{color:"#272974"}}>Excellence.</span></h1>
+         <h1>Welcome To, <span style={{color:"#272974"}}>BLUEBERRY INTERNATIONAL PRE-SCHOOL.</span></h1>
 
-        <p>Join us on this journey of discovery, growth, 
-        and achievement as we guide young minds towards a 
-        future filled with both innocence and excellence. 
-        Explore the possibilities at BLUEBERRY, where 
-        every student's potential is cherished and celebrated.</p> 
+<h2 className='default-font'> Innocence Strives for Excellence</h2>
+
+        <p>We believe in nurturing and enriching young minds and souls and more emphasis on looking
+beyond the parameters of bookish education because we know the basics of child minds.
+As a child does something not because the teacher told but an inner curiosity in him/her the
+desire to do it.</p> 
+
         <Link className="banner-btn">Join Us Now</Link>
 
        
@@ -47,7 +49,7 @@ const Banner = () => {
 <div className='container'>
   <div className='row'>
 
-    <div className='col-md-3 col-12 border-right'>
+    <div className='col-md-3 col-12 border-right pt-md-1 mb-md-1 pt-3 pb-3'>
       <div className='heightlight-card'>
 <MdVideoSettings className='icon'/>
 <div className='heightlight-content'>
@@ -58,7 +60,7 @@ const Banner = () => {
 
     </div>
 
-    <div className='col-md-3 col-12 border-right'>
+    <div className='col-md-3 col-12 border-right pt-md-1 mb-md-1 pt-3 pb-3'>
       <div className='heightlight-card'>
 <FaPersonChalkboard className='icon'/>
 <div className='heightlight-content'>
@@ -69,7 +71,7 @@ const Banner = () => {
 
     </div>
 
-    <div className='col-md-3 col-12 border-right'>
+    <div className='col-md-3 col-12 border-right pt-md-1 mb-md-1 pt-3 pb-3'>
       <div className='heightlight-card'>
 <PiCertificate className='icon'/>
 <div className='heightlight-content'>
@@ -80,7 +82,7 @@ const Banner = () => {
 
     </div>
 
-    <div className='col-md-3 col-12 '>
+    <div className='col-md-3 col-12  pt-md-1 mb-md-1 pt-3 pb-3'>
       <div className='heightlight-card'>
 <BsPeople className='icon'/>
 <div className='heightlight-content'>
