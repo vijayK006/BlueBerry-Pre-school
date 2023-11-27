@@ -9,8 +9,8 @@ const Topheader = () => {
     <>
       <div className='tophader'>
 <div className='header-content'>
-<a href='tel:123 4561 5523'><p><IoCall style={{marginBottom:"5px", marginRight:"5px"}}/>91xx xxx xxx</p></a>
-<a href='mailto:info@blueberry.com'><p><IoMdMail style={{marginBottom:"5px", marginRight:"5px"}}/> info@blueberry.com</p></a>
+<a href='tel:123 4561 5523'><p><IoCall/> <span>91xx xxx xxx</span></p></a>
+<a href='mailto:info@blueberry.com'><p><IoMdMail/> <span>info@blueberry.com</span> </p></a>
 
 <div className='social'>
 <a href=''><GrFacebookOption className='icon'/></a>
