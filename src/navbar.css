@@ -1,10 +1,5 @@
 .tophader{
     background: #1f2432;
-    padding: 0px 90px;
-    background: #1f2432;
-    padding: 0px 90px;
-    display: flex;
-    justify-content: end;
 }
 
 .header-content{
@@ -30,24 +25,16 @@
 nav{
     position: relative;
     display: flex;
-    justify-content: space-around;
+ 
     align-items: center;
     background-color: white;
     box-shadow: 1px 3px 12px 0px #00000021;
-    padding: 10px 0px;
+
     z-index: 11111;
 }
 
-nav .logo img{
-    height: 80px;
-    width: auto;
-}
-
-nav .navlinks{
-}
 
 nav .navlinks ul{
-    display: flex;
     margin: 0px;
     padding: 0px;
     list-style-type: none;
@@ -55,7 +42,7 @@ nav .navlinks ul{
 
 nav .navlinks ul li{
     font-weight: 500;
-    margin: 0px 2px;
+   
     padding: 8px 8px;
     color: black;
 
