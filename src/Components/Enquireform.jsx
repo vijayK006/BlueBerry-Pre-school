@@ -46,7 +46,7 @@ document.getElementById('formModule').classList.remove('togglemodel');
 <h4 className='default-font'>Admission Enquire Form</h4>
 <MdClose className='icon' onClick={closeForm}/>
 </div>
-  <form ref={form} onSubmit={sendEmail}>
+  <form ref={form} >
 
 <div className='row'>
 

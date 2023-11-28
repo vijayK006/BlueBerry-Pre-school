@@ -97,6 +97,21 @@ right:31px;
     border-right: 0px solid white;
   }
 
+  .section-img2{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 400px;
+    width: 100%;
+  }
+
+  .section-img2-contain{
+display: none;
+  }
+
+  .p-top-80{
+    padding-top: 110px;
+  }
 }
 
 @media only screen and (min-width: 768px){
@@ -181,6 +196,18 @@ right:-100px ;
 .border-right{
     border-right: 2px solid white;
   }
+
+  .section-img2{
+
+  }
+
+  .section-img2-contain{
+
+  }
+
+  .p-top-80{
+    padding-top: 110px;
+  }
 }
 
 @media only screen and (min-width: 998px){
@@ -263,5 +290,23 @@ right:-100px ;
 
 .border-right{
     border-right: 2px solid white;
+  }
+
+  .section-img2{
+    position: absolute;
+    left: -55px;
+    top: -70px;
+  }
+
+  .section-img2-contain{
+    display: block;
+    position: absolute;
+    right:0px;
+    bottom: -123px;
+    z-index: 11111;
+  }
+
+  .p-top-80{
+    padding-top: 110px;
   }
 }

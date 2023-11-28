@@ -198,6 +198,10 @@ letter-spacing: 1px;
 .about-content h5{
   color: gray;
     letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #272974;
+    font-weight: 600;
 }
 
 .about-content h3{
@@ -206,7 +210,7 @@ letter-spacing: 1px;
 }
 
 .about-content p{
-  
+  font-size: 14px;
 }
 
 .about-content ul{
@@ -258,7 +262,7 @@ background-size: contain;
 bottom: 20%;
 right:10%;
 animation: slide ease-in-out 30s infinite alternate;
-
+z-index: -11;
 }
 
 .shape-ovel2{
@@ -335,4 +339,83 @@ margin-bottom: 5px;
 font-size: 40px;
 color: gray;
 cursor: pointer;
+}
+
+
+.section-img2-contain{
+  animation: movew ease-in-out 20s infinite alternate;
+
+}
+
+
+@keyframes movew {
+  0% {transform: translateY(40px);}
+  100% {transform: translateY(0px);}
+}
+
+.cloud-bg{
+  background-image: url('./img/bg/bg-image-1.svg');
+}
+
+
+.activity-card{
+display: flex;
+justify-content: start;
+gap: 10px;
+align-items: center;
+cursor: pointer;
+}
+
+
+
+.icon-contain{
+  position: relative;
+  background-color: #d6fff8;
+  border-radius: 50px;
+height: 80px;
+width: 80px;
+overflow: hidden;
+}
+
+
+
+.icon-bg{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #23b9a1;
+font-size: 60px;
+overflow: hidden;
+padding: 5px;
+z-index: 11;
+transition: all 0.3s ease-in-out;
+}
+
+.activity-card:hover .icon-bg{
+  color: white;
+
+}
+
+.circle-green{
+position: absolute;
+height: 0px;
+width: 0px;
+top: 50%;
+background-color:#f0f0f0;
+border-radius: 50px;
+left: 50%;
+transform: translate(-50%, -50%);
+transition: all 0.3s ease-in-out;
+}
+
+.activity-card:hover .circle-green{ 
+  background-color: #23b9a1;
+  height: 80px;
+  width: 80px;
+}
+
+.activity-card p{
+margin: 0px;
+font-size: 14px;
 }
