@@ -149,20 +149,20 @@ Where Every Child's Potential Blossoms!</p>
 <h5 className='default-font pb-1'>Prospectus</h5>
 <h3 className='default-font pb-2'>Unveiling the Path to Early <span  style={{color:"rgb(255 148 0)", fontWeight:"550"}}>Education Excellence.</span></h3>
 
-<p className='default-font'>Choosing the right preschool, where the basic stepping stone is built in every child is a
-challenging decision for every parent of today but our prospectus over here you an insight
-glance at our school. We hope you find the information useful and interesting. </p>
- 
-
-<p className='default-font pt-3'><b>Our Aim</b></p>
 <p className='default-font'>
-Here is to encourage the child to achieve their best and to lay the foundation on which their
-future learning is built, we believe a child learns best when he/she feels secured and a comfort
-zone and activity involved are interesting and enjoyable, we also aim in free interactions with the
-parent for any queries related to school or the child. Finally, a prospectus cannot answer all the
-questions formed in a parent's mind, but for a better insight view, we would suggest you visit
-school premises cause seeing is believing.
+This prospectus is designed to give every parent an outline of our school and what all we offer
+for your child.
+<br/>
+<br/>
+Choosing the right preschool, where the basic stepping stone is built in every child is a
+challenging decision for every parent of today but our prospectus over here you an insight
+glance at our school. We hope you find the information useful and interesting. 
+<br/>
+<br/>
+We strictly believe in the child-centered development education method originated from child
+development theories by Italian educator Monica Montessori (1970-1952).
 </p>
+ 
 
 </div>
 
@@ -202,21 +202,107 @@ school premises cause seeing is believing.
 
 <div className='row'>
 
-  <div className='col-md-4'>
-  
+  <div className='col-md-4 pt-3 pb-3'>
+
     <div className='activity-card'>
 
-      <div className='icon-contain'>
-      <CiCloudOn className='icon-bg'/>
-<div className='circle-green'/>
+      <div className='icon-contain-yellow'>
+      <CiCloudOn className='icon-bg-yellow'/>
+<div className='circle-yellow'/>
       </div>
 
       <p className='default-font'> Theme based Annual<br/> celebration</p>
     </div>
-  </div>
+    </div>
+
+  <div className='col-md-4 pt-3 pb-3'>
+    <div className='activity-card'>
+
+<div className='icon-contain-pink'>
+<CiCloudOn className='icon-bg-pink'/>
+<div className='circle-pink'/>
+</div>
+
+<p className='default-font'> Annual sports meet</p>
+</div></div>
+
+  <div className='col-md-4 pt-3 pb-3'>
+<div className='activity-card'>
+
+<div className='icon-contain-rubic'>
+<CiCloudOn className='icon-bg-rubic'/>
+<div className='circle-rubic'/>
+</div>
+
+<p className='default-font'> Education seminar for <br/>the parent community</p>
+</div></div>
+
+  <div className='col-md-4 pt-3 pb-3'>
+<div className='activity-card'>
+
+<div className='icon-contain-green'>
+<CiCloudOn className='icon-bg-green'/>
+<div className='circle-green'/>
+</div>
+
+<p className='default-font'> Various circular exhibitions</p>
+</div></div>
+
+  <div className='col-md-4 pt-3 pb-3'>
+<div className='activity-card'>
+
+<div className='icon-contain-blue'>
+<CiCloudOn className='icon-bg-blue'/>
+<div className='circle-blue'/>
+</div>
+
+<p className='default-font'> Field trips & Excursion</p>
+</div></div>
+
+  <div className='col-md-4 pt-3 pb-3'>
+<div className='activity-card'>
+
+<div className='icon-contain-red'>
+<CiCloudOn className='icon-bg-red'/>
+<div className='circle-red'/>
+</div>
+
+<p className='default-font'> Movie shows</p>
+</div></div>
+
+<div className='col-md-6 pt-3 pb-3'>
+<div className='activity-card'>
+
+<div className='icon-contain-l-red'>
+<CiCloudOn className='icon-bg-l-red'/>
+<div className='circle-l-red'/>
+</div>
+
+<p className='default-font'> Celebration of religious festivals and<br/> important days within school premises</p>
+</div></div>
+ 
 
 </div>
 </div>
+</section>
+
+<section className='cloud-bg-pink p-top-80 overflow-hidden'>
+<div className='container-fluid'>
+  <div className='row'>
+  <div className='col-md-3 col-sm-none'></div>
+  <div className='col-md-6 col-12'>
+    <h3 className='default-font text-center'>Get In Touch With Us With Our </h3>
+  
+  <div className='d-flex justify-content-center align-items-center gap-3'>
+    <a href='mailto:info@blueberry.com' className='linkstyle-disable'><p className='contact-links'>info@blueberry.com</p></a>
+    <p className='circle-or'>or</p>
+    <a href='tel:+91 9552886677' className='linkstyle-disable'><p className='contact-links'>9552 886 677</p></a>
+  </div>
+  </div>
+  <div className='col-md-3 col-sm-none'></div>
+</div>
+</div>
+
 </section>
 
 

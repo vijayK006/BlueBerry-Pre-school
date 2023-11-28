@@ -357,6 +357,9 @@ cursor: pointer;
   background-image: url('./img/bg/bg-image-1.svg');
 }
 
+.cloud-bg-pink{
+  background-image: url('./img/bg/bg-image-2.svg');
+}
 
 .activity-card{
 display: flex;
@@ -368,18 +371,11 @@ cursor: pointer;
 
 
 
-.icon-contain{
-  position: relative;
-  background-color: #d6fff8;
-  border-radius: 50px;
-height: 80px;
-width: 80px;
-overflow: hidden;
-}
 
 
 
-.icon-bg{
+/* green */
+.icon-bg-green{
   position: absolute;
 top: 50%;
 left: 50%;
@@ -392,8 +388,9 @@ z-index: 11;
 transition: all 0.3s ease-in-out;
 }
 
-.activity-card:hover .icon-bg{
+.activity-card:hover .icon-bg-green{
   color: white;
+  font-size: 80px;
 
 }
 
@@ -402,11 +399,20 @@ position: absolute;
 height: 0px;
 width: 0px;
 top: 50%;
-background-color:#f0f0f0;
+background-color:#e8f8f5;
 border-radius: 50px;
 left: 50%;
 transform: translate(-50%, -50%);
 transition: all 0.3s ease-in-out;
+}
+
+.icon-contain-green{
+  position: relative;
+  background-color: #e8f8f5;
+  border-radius: 50px;
+height: 80px;
+width: 80px;
+overflow: hidden;
 }
 
 .activity-card:hover .circle-green{ 
@@ -415,7 +421,336 @@ transition: all 0.3s ease-in-out;
   width: 80px;
 }
 
+/* red */
+.icon-bg-red{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #ee5066;
+font-size: 60px;
+overflow: hidden;
+padding: 5px;
+z-index: 11;
+transition: all 0.3s ease-in-out;
+}
+
+.activity-card:hover .icon-bg-red{
+  color: white;
+  font-size: 80px;
+
+}
+
+.circle-red{
+position: absolute;
+height: 0px;
+width: 0px;
+top: 50%;
+background-color:#fdedef;
+border-radius: 50px;
+left: 50%;
+transform: translate(-50%, -50%);
+transition: all 0.3s ease-in-out;
+}
+
+.icon-contain-red{
+  position: relative;
+  background-color: #fdedef;
+  border-radius: 50px;
+height: 80px;
+width: 80px;
+overflow: hidden;
+}
+
+.activity-card:hover .circle-red{ 
+  background-color: #ee5066;
+  height: 80px;
+  width: 80px;
+}
+
 .activity-card p{
 margin: 0px;
 font-size: 14px;
+}
+
+
+/* rubic */
+.icon-bg-rubic{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #9865ff;
+font-size: 60px;
+overflow: hidden;
+padding: 5px;
+z-index: 11;
+transition: all 0.3s ease-in-out;
+}
+
+.activity-card:hover .icon-bg-rubic{
+  color: white;
+  font-size: 80px;
+
+}
+
+.circle-rubic{
+position: absolute;
+height: 0px;
+width: 0px;
+top: 50%;
+background-color:#f3eeff;
+border-radius: 50px;
+left: 50%;
+transform: translate(-50%, -50%);
+transition: all 0.3s ease-in-out;
+}
+
+.icon-contain-rubic{
+  position: relative;
+  background-color: #f3eeff;
+  border-radius: 50px;
+height: 80px;
+width: 80px;
+overflow: hidden;
+}
+
+.activity-card:hover .circle-rubic{ 
+  background-color: #9865ff;
+  height: 80px;
+  width: 80px;
+}
+
+.activity-card p{
+margin: 0px;
+font-size: 14px;
+}
+
+
+/* pink */
+.icon-bg-pink{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #f92596;
+font-size: 60px;
+overflow: hidden;
+padding: 5px;
+z-index: 11;
+transition: all 0.3s ease-in-out;
+}
+
+.activity-card:hover .icon-bg-pink{
+  color: white;
+  font-size: 80px;
+
+}
+
+.circle-pink{
+position: absolute;
+height: 0px;
+width: 0px;
+top: 50%;
+background-color:#fee9f4;
+border-radius: 50px;
+left: 50%;
+transform: translate(-50%, -50%);
+transition: all 0.3s ease-in-out;
+}
+
+.icon-contain-pink{
+  position: relative;
+  background-color: #fee9f4;
+  border-radius: 50px;
+height: 80px;
+width: 80px;
+overflow: hidden;
+}
+
+.activity-card:hover .circle-pink{ 
+  background-color: #f92596;
+  height: 80px;
+  width: 80px;
+}
+
+.activity-card p{
+margin: 0px;
+font-size: 14px;
+}
+
+
+/* blue */
+.icon-bg-blue{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #5866eb;
+font-size: 60px;
+overflow: hidden;
+padding: 5px;
+z-index: 11;
+transition: all 0.3s ease-in-out;
+}
+
+.activity-card:hover .icon-bg-blue{
+  color: white;
+  font-size: 80px;
+
+}
+
+.circle-blue{
+position: absolute;
+height: 0px;
+width: 0px;
+top: 50%;
+background-color:#eeeffd;
+border-radius: 50px;
+left: 50%;
+transform: translate(-50%, -50%);
+transition: all 0.3s ease-in-out;
+}
+
+.icon-contain-blue{
+  position: relative;
+  background-color: #eeeffd;
+  border-radius: 50px;
+height: 80px;
+width: 80px;
+overflow: hidden;
+}
+
+.activity-card:hover .circle-blue{ 
+  background-color: #5866eb;
+  height: 80px;
+  width: 80px;
+}
+
+.activity-card p{
+margin: 0px;
+font-size: 14px;
+}
+
+
+/* yellow */
+.icon-bg-yellow{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #f8941f;
+font-size: 60px;
+overflow: hidden;
+padding: 5px;
+z-index: 11;
+transition: all 0.3s ease-in-out;
+}
+
+.activity-card:hover .icon-bg-yellow{
+  color: white;
+  font-size: 80px;
+
+}
+
+.icon-contain-yellow{
+  position: relative;
+  background-color: #fef4e8;
+  border-radius: 50px;
+height: 80px;
+width: 80px;
+overflow: hidden;
+}
+
+.circle-yellow{
+position: absolute;
+height: 0px;
+width: 0px;
+top: 50%;
+background-color:#fef4e8;
+border-radius: 50px;
+left: 50%;
+transform: translate(-50%, -50%);
+transition: all 0.3s ease-in-out;
+}
+
+.activity-card:hover .circle-yellow{ 
+  background-color: #f8941f;
+  height: 80px;
+  width: 80px;
+}
+
+.activity-card p{
+margin: 0px;
+font-size: 14px;
+}
+
+
+
+/* l-red */
+.icon-bg-l-red{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #ee4a62;
+font-size: 60px;
+overflow: hidden;
+padding: 5px;
+z-index: 11;
+transition: all 0.3s ease-in-out;
+}
+
+.activity-card:hover .icon-bg-l-red{
+  color: white;
+  font-size: 80px;
+
+
+}
+
+.circle-l-red{
+position: absolute;
+height: 0px;
+width: 0px;
+top: 50%;
+background-color:#fef2f4;
+border-radius: 50px;
+left: 50%;
+transform: translate(-50%, -50%);
+transition: all 0.3s ease-in-out;
+}
+
+.icon-contain-l-red{
+  position: relative;
+  background-color: #fef2f4;
+  border-radius: 50px;
+height: 80px;
+width: 80px;
+overflow: hidden;
+}
+
+
+.activity-card:hover .circle-l-red{ 
+  background-color: #ee4a62;
+  height: 80px;
+  width: 80px;
+}
+
+.activity-card p{
+margin: 0px;
+font-size: 14px;
+}
+
+.contact-links{
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+margin: 0px;
+}
+
+.circle-or{
+  margin: 0px;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: white;
 }
