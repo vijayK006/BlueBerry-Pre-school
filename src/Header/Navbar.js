@@ -22,8 +22,8 @@ const openmenubtn=()=>{
 
 <div className='navlinks' id='menu'>
     <ul>
-        <Link to='' className='linkstyle-disable'><li className='n-links'>Home</li></Link>
-        <Link to='' className='linkstyle-disable'><li className='n-links'>About us</li></Link>
+        <Link to='/' className='linkstyle-disable'><li className='n-links'>Home</li></Link>
+        <Link to='/about-us' className='linkstyle-disable'><li className='n-links'>About us</li></Link>
         <Link to='' className='linkstyle-disable'><li className='n-links'>Our Curriculum</li></Link>
         <Link to='' className='linkstyle-disable'><li className='n-links'>Gallery</li></Link>
         <Link to='' className='linkstyle-disable'><li className='n-links'>Contact us</li></Link>
@@ -31,7 +31,7 @@ const openmenubtn=()=>{
 </div>
     
 <div className='nav-btn'>
-    <Link to='/' className='linkstyle-disable'><p>Enquire Now</p></Link>
+    <Link to='/' className='linkstyle-disable'><p>Work with us</p></Link>
 </div>
 
 <div className='menubar' onClick={openmenubtn}>

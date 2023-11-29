@@ -9,6 +9,8 @@ import kid1box from '../img/about-09.png';
 import kid2box from '../img/about-10.png';
 
 import { CiCloudOn } from "react-icons/ci";
+import Quickcontact from '../Components/Quickcontact';
+import Footer from '../Components/Footer';
 
 const Home = () => {
   return (
@@ -140,6 +142,9 @@ Where Every Child's Potential Blossoms!</p>
 <div className='cloud-bg p-top-80 overflow-hidden'>
   <section className="container position-relative pt-5 pb-5">
 <div className="row">
+
+
+
 <div className='col-md-6'>
 <img src={sectionkidImg} className='section-img1' alt='img'/>
 </div>
@@ -286,25 +291,9 @@ development theories by Italian educator Monica Montessori (1970-1952).
 </div>
 </section>
 
-<section className='cloud-bg-pink p-top-80 overflow-hidden'>
-<div className='container-fluid'>
-  <div className='row'>
-  <div className='col-md-3 col-sm-none'></div>
-  <div className='col-md-6 col-12'>
-    <h3 className='default-font text-center'>Get In Touch With Us With Our </h3>
-  
-  <div className='d-flex justify-content-center align-items-center gap-3'>
-    <a href='mailto:info@blueberry.com' className='linkstyle-disable'><p className='contact-links'>info@blueberry.com</p></a>
-    <p className='circle-or'>or</p>
-    <a href='tel:+91 9552886677' className='linkstyle-disable'><p className='contact-links'>9552 886 677</p></a>
-  </div>
-  </div>
-  <div className='col-md-3 col-sm-none'></div>
-</div>
-</div>
+<Quickcontact/>
 
-</section>
-
+<Footer/>
 
     </>
   )

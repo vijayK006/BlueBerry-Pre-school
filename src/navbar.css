@@ -2,6 +2,11 @@
     background: #1f2432;
 }
 
+.n-links{
+    font-family: 'Varela Round', sans-serif;
+}
+
+
 .header-content{
     display: flex;
     align-items: center;
@@ -62,3 +67,61 @@ transition: all 0.5s ease-in-out;
     font-weight: 500;
 }
 
+footer{
+    /* background-color: #dee2e6; */
+    background-color: rgb(245, 245, 245);
+}
+
+footer p{
+    font-size: 13px;
+font-family: 'Varela Round', sans-serif;
+width: 80%;
+text-align: justify;
+margin:30px 10px;
+}
+
+footer h5{
+    font-family: 'Varela Round', sans-serif;
+margin-bottom: 30px;
+}
+
+footer span{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    color: black;
+
+}
+
+footer .icon{
+    font-size: 30px;
+ 
+}
+
+footer .icon2{
+    font-size: 23px;
+ 
+}
+
+.licence{
+border-top: 1px solid gray;
+}
+
+.licence .font{
+    background-color: rgb(245, 245, 245);
+margin: 0px !important;
+    padding: 10px 10px !important;
+    text-align: center;
+    /* font-family: 'Varela Round', sans-serif; */
+color: black;
+font-size: 13px;
+font-weight: 500;
+letter-spacing: 1px;
+}
+
+.footer-links{
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-links:hover{
+    letter-spacing: 1px;
+}

@@ -748,9 +748,97 @@ font-size: 14px;
 margin: 0px;
 }
 
+.circle-con{
+position: relative;
+background-color: white;
+height: 60px;
+width: 60px;
+border-radius: 50px;
+}
+
 .circle-or{
+  position: absolute;
   margin: 0px;
-  font-size: 30px;
-  font-weight: 600;
-  background-color: white;
+  font-size: 25px;
+  font-weight: 300;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div-img1{
+height: 290px;
+width: 100%;
+  animation: movew ease-in-out 20s infinite alternate;
+
+}
+
+.div-img2{
+  height: 340px;
+  width: 100%;
+  animation: slide ease-in-out 30s infinite alternate;
+}
+
+
+.icon-book{
+  position: absolute;
+  top: 20px;
+  left: 40px;
+background-image: url('./img/icon-2.png');
+height: 50px;
+width: 50px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.icon-lab{
+  position: absolute;
+  bottom: 130px;
+  right: 0px;
+background-image: url('./img/icon-1.png');
+height: 50px;
+width: 50px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+
+.bread-crub{
+background-image: url('./img/bg-image-19.webp');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+width: 100%;
+}
+
+.bread-crub h1{
+font-family: 'Varela Round', sans-serif;
+font-weight: 600;
+}
+
+.bread-crub span{
+font-family: 'Varela Round', sans-serif;
+  color: black;
+}
+
+.bg-blur{
+position: absolute;
+height: 100%;
+width: 100%;
+backdrop-filter: blur(4px);
+top: 0px ;
+}
+
+.bg-overlay-black{
+position: absolute;
+height: 100%;
+width: 100%;
+background-color: rgba(255, 255, 255, 0.308);
+top: 0px ;
+}
+
+.bread-content{
+  position: absolute;
+  z-index: 111;
 }
