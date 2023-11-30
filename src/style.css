@@ -2,6 +2,9 @@
     text-decoration: none;
 }
 
+p{
+  text-align: justify !important;
+}
 
 .banner1{
     height: auto;
@@ -220,13 +223,13 @@ letter-spacing: 1px;
 }
 
 .about-content ul li{
-  margin: 10px 10px;
+  margin: 4px 4px;
   font-weight: 500;
 }
 
 
 .about-content .icon{
-  margin-right: 10px;
+
   font-size: 20px;
   color: #ff9400;
 }
@@ -841,4 +844,110 @@ top: 0px ;
 .bread-content{
   position: absolute;
   z-index: 111;
+}
+
+
+.section-img3{
+border-radius: 10px;
+}
+
+  .section-img3-contain{
+border-radius: 10px;
+box-shadow: 0px 0px 8px 0px #0000006b;
+  }
+  
+
+
+  
+.why-card{
+  position: relative;
+  width: 100%;
+  box-shadow: 0px 0px 9px 0px #e6e6e6;
+padding: 0px 20px;
+border-radius: 10px 0px 10px 0px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+
+.why-card:hover{
+  box-shadow: 12px 11px 20px 14px #e6e6e6;
+  border-radius: 0px 10px 0px 10px;
+
+}
+
+.icon-bg{
+  position: absolute;
+  left: 50%;
+  top: -25px;
+  transform: translateX(-50%);
+height: 50px;
+width: 50px;
+background-color: white;
+box-shadow: 0px 0px 9px 0px #d6d6d6;
+border-radius: 50px;
+transition: all 0.3s ease-in-out;
+}
+
+.why-card:hover .icon-bg{
+  background-color: #272974;
+box-shadow: 0px 0px 9px 0px #272974;
+
+}
+
+.icon-bg .iconw{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+background-image: url('./img/icons/fantasies-dark.png');
+height: 40px;
+width: 40px;
+background-size: contain;
+background-repeat: no-repeat;
+transition: all 0.3s ease-in-out;
+}
+
+.why-card:hover .iconw{
+  background-image: url('./img/icons/fantasies-white.png');
+
+}
+
+
+.why-card p{
+  position:absolute;
+  top: 50px;
+width: 85%;
+left: 15px;
+font-size: 13px;
+margin: 0px;
+text-align: center !important;
+
+}
+
+.day-card{
+border-radius: 10px;
+padding: 10px;
+background-color: #a9a5ff;
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+
+
+.day-card .icon{
+font-size: 30px;
+margin-right: 20px;
+transform: translateX(0px);
+transition: all 0.5s ease-in-out;
+}
+
+.day-card:hover .icon{
+transform: translateX(10px);
+font-size: 30px;
+}
+
+.day-card p{
+margin: 0px;
+font-weight: 600;
 }

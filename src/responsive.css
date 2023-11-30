@@ -10,6 +10,11 @@ margin-left: 0px;
 
 }
 
+
+.col-row-5{
+    width: 100%;
+}
+
 nav .navlinks ul li{
     margin: 10px 2px;
 }
@@ -147,6 +152,29 @@ height: 200px;
     bottom:66px;
 }
 
+.section-img3{
+    position: relative;
+    left: 0px;
+    bottom: -40px;
+    height: 250px;
+    width: 100%;
+  }
+
+  .section-img3-contain{
+    display: block;
+    position: absolute;
+    right:90px;
+    top: 100px;
+    height: 200px;
+    width: auto;
+    z-index: 11111;
+    display: none;
+  }
+
+
+  .why-card{
+    height: 100px;
+    }
 }
 
 @media only screen and (min-width: 768px){
@@ -276,6 +304,34 @@ right:-100px ;
                         .bread-content{
                             bottom:100px;
                         }
+
+
+                        .section-img3{
+                            position: absolute;
+                            left: 24px;
+                            bottom: 90px;
+                            height: 280px;
+                            width: 400px;
+                          }
+                        
+                          .section-img3-contain{
+                            display: block;
+                            position: absolute;
+                            right: -21px;
+                            top: 100px;
+                            height: 200px;
+                            width: auto;
+                            z-index: 11111;
+                            /* display: none; */
+                          }
+
+                          .col-row-5{
+                            width: 20%;
+                        }
+
+                        .why-card{
+                            height: 135px;
+                            }
 }
 
 @media only screen and (min-width: 998px){
@@ -374,6 +430,25 @@ right:-100px ;
     z-index: 11111;
   }
 
+
+  .section-img3{
+    position: absolute;
+    left: 100px;
+    bottom: 0px;
+    height: 280px;
+    width: 400px;
+  }
+
+  .section-img3-contain{
+    display: block;
+    position: absolute;
+    right:90px;
+    top: 110px;
+    height: 200px;
+    width: auto;
+    z-index: 11111;
+    /* display: none; */
+  }
   .p-top-80{
     padding-top: 110px;
   
@@ -413,4 +488,41 @@ font-size: 40px;
         bottom:100px;
     }
 
+    .col-row-5{
+        width: 20%;
+    }
+
+    .why-card{
+        height: 135px;
+        }
+
 }
+
+@media only screen and (min-width: 1400px){
+.col-row-5{
+    width: 20%;
+}
+    .section-img3{
+        position: absolute;
+        left: 100px;
+        bottom: -100px;
+        height: 380px;
+        width: 500px;
+      }
+    
+      .section-img3-contain{
+        display: block;
+        position: absolute;
+        right:60px;
+        top: 0px;
+        height: 250px;
+        width: auto;
+        z-index: 11111;
+        /* display: none; */
+      }
+
+.why-card{
+height: 135px;
+}
+}
+
