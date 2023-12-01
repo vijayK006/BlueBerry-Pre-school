@@ -1,13 +1,19 @@
 import React from 'react'
 import Header from '../Header/Header';
-import { Link } from 'react-router-dom';
 import Breadcrumb from '../Components/Breadcrumb';
 import { RiBookmark3Line } from "react-icons/ri";
-import { GiBookAura } from "react-icons/gi";
-import { WiCloudyGusts } from "react-icons/wi";
+import { GiBookAura, GiCctvCamera } from "react-icons/gi";
+import { MdOutlineSevereCold } from "react-icons/md";
+import { TbBooks } from "react-icons/tb";
+import { BsPersonVideo3 } from "react-icons/bs";
+import { FaToilet } from "react-icons/fa";
+import { AiFillSafetyCertificate } from "react-icons/ai";
 
+import Footer from '../Components/Footer';
 import about1us from '../img/about-11.webp';
 import about2us from '../img/about-12.webp';
+
+import busImg from '../img/school-bus.png';
 
 const AboutUs = () => {
   return (
@@ -117,8 +123,6 @@ school premises cause seeing is believing.
 <div className='d-flex justify-content-center pt-4 default-font'>
   <p className='header-tagline text-center'>Cultivating Individuality: A Holistic, Playful Learning Journey</p>
 </div>
-
-
 </div>
 
 <div className='row'>
@@ -126,7 +130,7 @@ school premises cause seeing is believing.
   <div className='col-row-5 px-3 py-4'>
     <div className='why-card'>
 <div className='icon-bg'>
-  <div className='iconw'/>
+  <div className='iconw fantasies-icon'/>
 
 </div>
 
@@ -137,18 +141,18 @@ school premises cause seeing is believing.
   <div className='col-row-5 px-3 py-4'>
     <div className='why-card'>
 <div className='icon-bg'>
-  <div className='iconw'/>
+  <div className='iconw process-icon'/>
 
 </div>
 
-<p className='default-font'>Focus on the process, no tests, no grades</p>
+<p className='default-font '>Focus on the process, no tests, no grades</p>
     </div>
   </div>
 
   <div className='col-row-5 px-3 py-4'>
     <div className='why-card'>
 <div className='icon-bg'>
-  <div className='iconw'/>
+  <div className='iconw reality-icon'/>
 
 </div>
 
@@ -159,19 +163,19 @@ school premises cause seeing is believing.
   <div className='col-row-5 px-3 py-4'>
     <div className='why-card'>
 <div className='icon-bg'>
-  <div className='iconw'/>
+  <div className='iconw child-icon'/>
 
 </div>
 
 <p className='default-font'> Recognition of sensitive periods in each
- child causes each being is different.</p>
+  causes each being is different.</p>
     </div>
   </div>
 
   <div className='col-row-5 px-3 py-4'>
     <div className='why-card'>
 <div className='icon-bg'>
-  <div className='iconw'/>
+  <div className='iconw speak-icon'/>
 
 </div>
 
@@ -182,7 +186,7 @@ school premises cause seeing is believing.
   <div className='col-row-5 px-3 py-4'>
     <div className='why-card'>
 <div className='icon-bg'>
-  <div className='iconw'/>
+  <div className='iconw focus-icon'/>
 
 </div>
 
@@ -193,18 +197,18 @@ school premises cause seeing is believing.
   <div className='col-row-5 px-3 py-4'>
     <div className='why-card'>
 <div className='icon-bg'>
-  <div className='iconw'/>
+  <div className='iconw roleplay-icon'/>
 
 </div>
 
-<p className='default-font'>More roleplay based criteria</p>
+<p className='default-font '>More roleplay based criteria</p>
     </div>
   </div>
 
   <div className='col-row-5 px-3 py-4'>
     <div className='why-card'>
 <div className='icon-bg'>
-  <div className='iconw'/>
+  <div className='iconw minds-icon'/>
 
 </div>
 
@@ -215,7 +219,7 @@ school premises cause seeing is believing.
   <div className='col-row-5 px-3 py-4'>
     <div className='why-card'>
 <div className='icon-bg'>
-  <div className='iconw'/>
+  <div className='iconw creativity-icon'/>
 
 </div>
 
@@ -226,11 +230,11 @@ school premises cause seeing is believing.
   <div className='col-row-5 px-3 py-4'>
     <div className='why-card'>
 <div className='icon-bg'>
-  <div className='iconw'/>
+  <div className='iconw knowledge-icon'/>
 
 </div>
 
-<p className='default-font'>Aiming in precise knowledge through
+<p className='default-font'>Aiming in precise  through
  each child grasping potentials</p>
     </div>
   </div>
@@ -244,8 +248,8 @@ school premises cause seeing is believing.
   <section className="container position-relative pt-5 pb-5">
 <div className="row">
 <div className='col-md-6 position-relative'>
-{/* <img src={about1us} className='section-img3' alt='img'/>
-<img src={about2us} className='section-img3-contain' alt='img'/> */}
+<img src={busImg} className='section-img3' alt='img'/>
+{/* <img src={about2us} className='section-img3-contain' alt='img'/> */}
 </div>
 
 <div className='col-md-6'>
@@ -279,19 +283,55 @@ and CCTV cameras and a fire extinguisher in every bus.
 </section>
 </div>
 
-<div className='container pt-5'>
+<div className='container pt-5 pb-5'>
   <div className='row'>
 
-    <div className='col-md-4 col-12'>
+    <div className='col-md-4 col-12 p-2'>
     <div className='day-card shadow'>
-    <WiCloudyGusts className='icon'/>
-    <p className='default-font'>Fully air conditioner classes</p>
+    <MdOutlineSevereCold className='icon'/>
+    <p className='default-font pt-2'>Fully air conditioner classes</p>
+    </div>
+    </div>
+
+    <div className='col-md-4 col-12 p-2'>
+    <div className='day-card shadow'>
+    <GiCctvCamera  className='icon'/>
+    <p className='default-font pt-2'>CCTV cameras in entire space areas</p>
+    </div>
+    </div>
+
+    <div className='col-md-4 col-12 p-2'>
+    <div className='day-card shadow'>
+    <TbBooks className='icon'/>
+    <p className='default-font pt-2'>Well stocked Libary</p>
+    </div>
+    </div>
+
+    <div className='col-md-4 col-12 p-2'>
+    <div className='day-card shadow'>
+    <BsPersonVideo3  className='icon'/>
+    <p className='default-font pt-2'>Digital learning experience in each classroom</p>
+    </div>
+    </div>
+
+    <div className='col-md-4 col-12 p-2'>
+    <div className='day-card shadow'>
+    <FaToilet className='icon'/>
+    <p className='default-font pt-2'>Hygienic Toilets with attendees</p>
+    </div>
+    </div>
+
+    <div className='col-md-4 col-12 p-2'>
+    <div className='day-card shadow'>
+    <AiFillSafetyCertificate className='icon'/>
+    <p className='default-font pt-2'>Finger guard on all doors for child safety</p>
     </div>
     </div>
 
   </div>
 </div>
 
+<Footer/>
     </>
   )
 }

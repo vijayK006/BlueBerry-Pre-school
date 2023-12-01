@@ -46,12 +46,12 @@ const Footer = () => {
 </Link>
 </div>
 
-<div className='d-flex  pb-1 align-items-center'>
+{/* <div className='d-flex  pb-1 align-items-center'>
 <MdKeyboardArrowRight className='icon2'/>
 <Link to='/' className='linkstyle-disable' >
 <span className='footer-links'>Gallery</span>
 </Link>
-</div>
+</div> */}
 
 <div className='d-flex  pb-1 align-items-center'>
 <MdKeyboardArrowRight className='icon2'/>
