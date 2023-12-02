@@ -14,6 +14,7 @@ import about1us from '../img/about-11.webp';
 import about2us from '../img/about-12.webp';
 
 import busImg from '../img/school-bus.png';
+import Quickcontact from '../Components/Quickcontact';
 
 const AboutUs = () => {
   return (
@@ -330,6 +331,8 @@ and CCTV cameras and a fire extinguisher in every bus.
 
   </div>
 </div>
+
+<Quickcontact/>
 
 <Footer/>
     </>
