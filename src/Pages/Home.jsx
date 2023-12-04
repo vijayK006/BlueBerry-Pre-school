@@ -7,8 +7,6 @@ import sectionkidImg from '../img/kid-2.webp';
 
 import kid1box from '../img/about-09.png';
 import kid2box from '../img/about-10.png';
-
-import { CiCloudOn } from "react-icons/ci";
 import Quickcontact from '../Components/Quickcontact';
 import Footer from '../Components/Footer';
 
@@ -92,45 +90,31 @@ Where Every Child's Potential Blossoms!</p>
 <div className="container">
 <div className='row'>
 
-  <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
-      <p className='class-t-name'>Social Science</p>
-    </div>
-  </div>
-
-  <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
-      <p className='class-t-name'>Science</p>
-    </div>
-  </div>
-
-  <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
-      <p className='class-t-name'>Mathematics</p>
-    </div>
-  </div>
-
-  <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+  <div className='col-md-3 pt-2 pb-2'>
+    <div className="class-card class-red-bg">
+      <div className='english subj-icon'/>
       <p className='class-t-name'>English</p>
     </div>
   </div>
 
-  <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
-      <p className='class-t-name'>Hindi</p>
+  <div className='col-md-3 pt-2 pb-2'>
+    <div className="class-card class-green-bg">
+      <div className='number subj-icon'/>
+      <p className='class-t-name'>Numeracy</p>
     </div>
   </div>
 
-  <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
-      <p className='class-t-name'>Marathi</p>
+  <div className='col-md-3 pt-2 pb-2'>
+    <div className="class-card class-yello-bg">
+      <div className='lit subj-icon'/>
+      <p className='class-t-name'>Literacy</p>
+    </div>
+  </div>
+
+  <div className='col-md-3 pt-2 pb-2'>
+    <div className="class-card class-purple-bg">
+      <div className='science subj-icon'/>
+      <p className='class-t-name'>Environmental Science</p>
     </div>
   </div>
 
@@ -212,7 +196,7 @@ development theories by Italian educator Monica Montessori (1970-1952).
     <div className='activity-card'>
 
       <div className='icon-contain-yellow'>
-      <CiCloudOn className='icon-bg-yellow'/>
+      <div className='icon-bg-yellow book-img-bg'/>
 <div className='circle-yellow'/>
       </div>
 
@@ -224,7 +208,7 @@ development theories by Italian educator Monica Montessori (1970-1952).
     <div className='activity-card'>
 
 <div className='icon-contain-pink'>
-<CiCloudOn className='icon-bg-pink'/>
+<div className='icon-bg-pink book-img-bg'/>
 <div className='circle-pink'/>
 </div>
 
@@ -235,7 +219,7 @@ development theories by Italian educator Monica Montessori (1970-1952).
 <div className='activity-card'>
 
 <div className='icon-contain-rubic'>
-<CiCloudOn className='icon-bg-rubic'/>
+<div className='icon-bg-rubic book-img-bg'/>
 <div className='circle-rubic'/>
 </div>
 
@@ -246,7 +230,7 @@ development theories by Italian educator Monica Montessori (1970-1952).
 <div className='activity-card'>
 
 <div className='icon-contain-green'>
-<CiCloudOn className='icon-bg-green'/>
+<div className='icon-bg-green book-img-bg'/>
 <div className='circle-green'/>
 </div>
 
@@ -257,7 +241,7 @@ development theories by Italian educator Monica Montessori (1970-1952).
 <div className='activity-card'>
 
 <div className='icon-contain-blue'>
-<CiCloudOn className='icon-bg-blue'/>
+<div className='icon-bg-blue book-img-bg'/>
 <div className='circle-blue'/>
 </div>
 
@@ -268,7 +252,7 @@ development theories by Italian educator Monica Montessori (1970-1952).
 <div className='activity-card'>
 
 <div className='icon-contain-red'>
-<CiCloudOn className='icon-bg-red'/>
+<div className='icon-bg-red book-img-bg'/>
 <div className='circle-red'/>
 </div>
 
@@ -279,7 +263,7 @@ development theories by Italian educator Monica Montessori (1970-1952).
 <div className='activity-card'>
 
 <div className='icon-contain-l-red'>
-<CiCloudOn className='icon-bg-l-red'/>
+<div className='icon-bg-l-red book-img-bg'/>
 <div className='circle-l-red'/>
 </div>
 

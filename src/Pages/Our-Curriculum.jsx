@@ -1,11 +1,16 @@
 import React from 'react'
 import Header from '../Header/Header';
 import Breadcrumb from '../Components/Breadcrumb';
-import { GiBookAura } from "react-icons/gi";
 
 import curruculumImg from '../img/curriculum.png';
 import Footer from '../Components/Footer';
 import Quickcontact from '../Components/Quickcontact';
+
+import { IoColorPaletteOutline } from "react-icons/io5";
+import { LuMountainSnow } from "react-icons/lu";
+import { FaHeadphonesSimple } from "react-icons/fa6";
+import { GiMaterialsScience } from "react-icons/gi";
+
 
 const OurCurriculum = () => {
   return (
@@ -79,70 +84,70 @@ development is equally significant.
 <div className="container">
 <div className='row'>
 
-  <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+  <div className='col-md-3 pt-2 pb-2'>
+    <div className="class-card class-red-bg">
+      <IoColorPaletteOutline className='font-red icon'/>
       <p className='class-t-name'>Colouring & Painting</p>
     </div>
   </div>
 
-  <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+  <div className='col-md-3 pt-2 pb-2'>
+    <div className="class-card class-green-bg">
+      <LuMountainSnow className='font-green icon'/>
       <p className='class-t-name'>Go green with nature</p>
     </div>
   </div>
 
-  <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+  <div className='col-md-3 pt-2 pb-2'>
+    <div className="class-card class-yello-bg">
+      <FaHeadphonesSimple className='font-yello icon'/>
       <p className='class-t-name'>Accessories making</p>
     </div>
   </div>
 
-  <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+  <div className='col-md-3 pt-2 pb-2'>
+    <div className="class-card class-purple-bg">
+      <GiMaterialsScience className='font-yello icon'/>
       <p className='class-t-name'>Fun with science</p>
     </div>
   </div>
 
-  <div className='col-md-4 pt-2 pb-2'>
+  <div className='col-md-3 pt-2 pb-2'>
     <div className="class-card">
       <div className='social-science'/>
       <p className='class-t-name'>Clay modeling</p>
     </div>
   </div>
 
-  <div className='col-md-4 pt-2 pb-2'>
+  <div className='col-md-3 pt-2 pb-2'>
     <div className="class-card">
       <div className='social-science'/>
       <p className='class-t-name'>Storytime</p>
     </div>
   </div>
 
-  <div className='col-md-4 pt-2 pb-2'>
+  <div className='col-md-3 pt-2 pb-2'>
     <div className="class-card">
       <div className='social-science'/>
       <p className='class-t-name'>Puppet shows</p>
     </div>
   </div>
 
-  <div className='col-md-4 pt-2 pb-2'>
+  <div className='col-md-3 pt-2 pb-2'>
     <div className="class-card">
       <div className='social-science'/>
       <p className='class-t-name'>Puzzle-solving</p>
     </div>
   </div>
 
-  <div className='col-md-4 pt-2 pb-2'>
+  <div className='col-md-3 pt-2 pb-2'>
     <div className="class-card">
       <div className='social-science'/>
       <p className='class-t-name'>Treasure hunt</p>
     </div>
   </div>
 
-  <div className='col-md-4 pt-2 pb-2'>
+  <div className='col-md-3 pt-2 pb-2'>
     <div className="class-card">
       <div className='social-science'/>
       <p className='class-t-name'>Personality development</p>

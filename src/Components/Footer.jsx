@@ -46,6 +46,14 @@ const Footer = () => {
 </Link>
 </div>
 
+
+<div className='d-flex  pb-1 align-items-center'>
+<MdKeyboardArrowRight className='icon2'/>
+<Link to='/' className='linkstyle-disable' >
+<span className='footer-links'>Career</span>
+</Link>
+</div>
+
 {/* <div className='d-flex  pb-1 align-items-center'>
 <MdKeyboardArrowRight className='icon2'/>
 <Link to='/' className='linkstyle-disable' >

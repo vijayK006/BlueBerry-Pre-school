@@ -110,8 +110,8 @@ border-top: 1px solid gray;
     background-color: rgb(245, 245, 245);
 margin: 0px !important;
     padding: 10px 10px !important;
-    text-align: center;
-    /* font-family: 'Varela Round', sans-serif; */
+    text-align: center !important; 
+    font-family: 'Varela Round', sans-serif;
 color: black;
 font-size: 13px;
 font-weight: 500;

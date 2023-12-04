@@ -72,8 +72,14 @@ document.getElementById('formModule').classList.remove('togglemodel');
   </div>
 
   <div className='col-md-4  pt-1 pb-1'>
-
-<input type="number" name="dob_child" className='form-control' placeholder='Enter Child DOB'/>
+  <DatePicker
+        selected={selectedDate}
+        onChange={(date) => setSelectedDate(date)}
+        placeholderText="Select Child DOB"
+        className='form-control'
+        name='dob_child'
+      />
+{/* <input type="number" name="dob_child" className='form-control' placeholder='Enter Child DOB'/> */}
 </div>
 
   <div className='col-md-4  pt-1 pb-1'>

@@ -119,7 +119,7 @@ line-height: 2;
  
 
   .default-font{
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Varela Round', sans-serif !important;
   }
 
   .underline{
@@ -148,41 +148,134 @@ border-radius: 50px;
   .class-card{
 border-radius: 5px;
     padding: 10px;
-    background-color: #dcfff9;
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 25px;
   transition: all 0.3s ease-in-out;
   }
 
-    .class-card:hover{
-background-color: #23b9a1;
+  .class-card .icon{
+font-size: 30px;
+  }
+
+
+
+  .subj-icon{
+height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center ;
+  transition: all 0.3s ease-in-out;
+  }
+
+/* red */
+  .class-red-bg{
+    background-color: #ee4a6212;
+  }
+
+    .class-red-bg:hover{
+background-color: #ee4a62;
 box-shadow: 0px 0px 0px 0px gray;
   }
 
-.social-science{
-  background-image:url('./img/icons/social-science-dark.png');
-  height: 70px;
-  width: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:center ;
+  .font-red{
+    color: #ee4a62;
+  }
+
+  .class-card:hover .font-red{
+color: white;
+  }
+
+  .english{
+    background-image:url('./img/icons/eng-red.png');
+    
+  }
+  
+  .class-card:hover .english{
+    background-image:url('./img/icons/eng-light.png');
+  }
+
+
+/* green */
+  .class-green-bg{
+    background-color: #effaf8;
+  }
+
+    .class-green-bg:hover{
+background-color: #23b9a1;
+
+  }
+
+  .font-green{
+color: #23b9a1;
+  }
+
+  .class-card:hover  .font-green{
+    color: white;
+  }
+
+  .number{
+    background-image:url('./img/icons/numaric-green.png');
+    
+    }
+    
+    .class-card:hover .number{
+    background-image:url('./img/icons/numaric-white.png');
+    }
+
+    /* yellow */
+
+.lit{
+  background-image:url('./img/icons/literacy-yel.png');
 }
 
-.class-card:hover .social-science{
-  background-image:url('./img/icons/social-science-light.png');
-  height: 70px;
-  width: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:center ;
-  transition: all 0.3s ease-in-out;
+.class-card:hover .lit{
+  background-image:url('./img/icons/literacy-dark.png');
 }
+
+.font-yello{
+  color: #f8b81f;
+    }
+  
+    .class-card:hover  .font-yello{
+      color: white;
+    }
+
+.class-yello-bg{
+  background-color: #f8b81f12;
+}
+
+  .class-yello-bg:hover{
+background-color: #f8b81f;
+
+}
+
+/* purple */
+.science{
+  background-image:url('./img/icons/science-purple.png');
+  
+}
+
+.class-card:hover .science{
+  background-image:url('./img/icons/science-white.png');
+}
+
+.class-purple-bg{
+  background-color: #f9259612;
+}
+
+  .class-purple-bg:hover{
+background-color: #f92596;
+
+}
+/* end */
 
 .class-t-name{
   color: black;
   transition: all 0.3s ease-in-out;
   text-align: left !important;
+  font-size: 14px;
 }
 .class-card:hover .class-t-name{
   color: white;
@@ -315,17 +408,7 @@ visibility: hidden;
 visibility: visible;
 }
 
-.form-body{
-  background-color: white;
-  border-radius: 10px;
-  padding: 30px;
-  width: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-box-shadow: 0px 0px 12px 1px #00000075;
-}
+
 
 .form-control{
 font-family: 'Varela Round', sans-serif !important;
@@ -384,17 +467,15 @@ cursor: pointer;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-color: #23b9a1;
-font-size: 60px;
 overflow: hidden;
 padding: 5px;
 z-index: 11;
 transition: all 0.3s ease-in-out;
+background-image: url('./img/icons/exhabitation.png');
 }
 
 .activity-card:hover .icon-bg-green{
-  color: white;
-  font-size: 80px;
+background-image: url('./img/icons/exhabitation-white.png');
 
 }
 
@@ -431,17 +512,15 @@ overflow: hidden;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-color: #ee5066;
-font-size: 60px;
 overflow: hidden;
 padding: 5px;
 z-index: 11;
 transition: all 0.3s ease-in-out;
+background-image: url('./img/icons/movie.png');
 }
 
 .activity-card:hover .icon-bg-red{
-  color: white;
-  font-size: 80px;
+background-image: url('./img/icons/movie-white.png');
 
 }
 
@@ -484,7 +563,7 @@ font-size: 14px;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-color: #9865ff;
+background-image: url('./img/icons/parent.png');
 font-size: 60px;
 overflow: hidden;
 padding: 5px;
@@ -493,9 +572,7 @@ transition: all 0.3s ease-in-out;
 }
 
 .activity-card:hover .icon-bg-rubic{
-  color: white;
-  font-size: 80px;
-
+background-image: url('./img/icons/parent-white.png');
 }
 
 .circle-rubic{
@@ -538,7 +615,7 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: #f92596;
-font-size: 60px;
+background-image: url('./img/icons/sports.png');
 overflow: hidden;
 padding: 5px;
 z-index: 11;
@@ -546,9 +623,7 @@ transition: all 0.3s ease-in-out;
 }
 
 .activity-card:hover .icon-bg-pink{
-  color: white;
-  font-size: 80px;
-
+background-image: url('./img/icons/sports-white.png');
 }
 
 .circle-pink{
@@ -590,18 +665,16 @@ font-size: 14px;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-color: #5866eb;
-font-size: 60px;
 overflow: hidden;
 padding: 5px;
 z-index: 11;
 transition: all 0.3s ease-in-out;
+background-image: url('./img/icons/excursion.png');
 }
 
 .activity-card:hover .icon-bg-blue{
-  color: white;
-  font-size: 80px;
 
+background-image: url('./img/icons/excursion-white.png');
 }
 
 .circle-blue{
@@ -636,6 +709,14 @@ margin: 0px;
 font-size: 14px;
 }
 
+.book-img-bg{
+  height: 45px;
+  width: 45px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center ;
+  transition: all 0.3s ease-in-out;
+}
 
 /* yellow */
 .icon-bg-yellow{
@@ -643,8 +724,7 @@ font-size: 14px;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-color: #f8941f;
-font-size: 60px;
+background-image: url('./img/icons/celeb.png');
 overflow: hidden;
 padding: 5px;
 z-index: 11;
@@ -653,7 +733,7 @@ transition: all 0.3s ease-in-out;
 
 .activity-card:hover .icon-bg-yellow{
   color: white;
-  font-size: 80px;
+background-image: url('./img/icons/celeb-white.png');
 
 }
 
@@ -697,19 +777,15 @@ font-size: 14px;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-color: #ee4a62;
-font-size: 60px;
 overflow: hidden;
 padding: 5px;
 z-index: 11;
 transition: all 0.3s ease-in-out;
+background-image: url('./img/icons/religion.png');
 }
 
 .activity-card:hover .icon-bg-l-red{
-  color: white;
-  font-size: 80px;
-
-
+background-image: url('./img/icons/religion-white.png');
 }
 
 .circle-l-red{
@@ -726,7 +802,7 @@ transition: all 0.3s ease-in-out;
 
 .icon-contain-l-red{
   position: relative;
-  background-color: #fef2f4;
+  background-color: #39c0fa12;
   border-radius: 50px;
 height: 80px;
 width: 80px;
@@ -735,7 +811,7 @@ overflow: hidden;
 
 
 .activity-card:hover .circle-l-red{ 
-  background-color: #ee4a62;
+  background-color: #39c0fa;
   height: 80px;
   width: 80px;
 }
@@ -999,7 +1075,7 @@ color: #f2b600;
 
 .day-card p{
 margin: 0px;
-font-weight: 600;
+font-weight: 300;
 font-size: 13px;
 text-align: left !important;
 }
@@ -1086,11 +1162,69 @@ letter-spacing: 1px;
 }
 
 .contact-content p{
- color: rgb(100, 100, 100); 
+ color: rgb(100, 100, 100);
+ font-size:14px ; 
 }
 
 .contact-content a{
   color: black;
   font-weight: 500;
- color: rgb(100, 100, 100); 
+ color: rgb(100, 100, 100);
+ font-size:14px ; 
+
+}
+
+.contactform-card{
+padding: 30px;
+border-radius:10px;
+}
+
+.contactform-card h5{
+font-family: 'Varela Round', sans-serif;
+font-weight: 600;
+}
+
+.contactform-card p{
+font-family: 'Varela Round', sans-serif;
+text-align: left !important;
+}
+
+.social-l{
+  display: flex;
+}
+
+.social-bg{
+height: 35px;
+width: 35px;
+position: relative;
+border: 2px solid gray;
+border-radius: 50px;
+transition: all 0.5s ease-in-out;
+}
+
+.bg-round{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.social-l .icons{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+color: gray;
+font-size: 17px;
+transition: all 0.5s ease-in-out;
+}
+
+.social-bg:hover{
+border: 2px solid rgb(18, 93, 255);
+}
+
+.social-bg:hover .icons{
+color: rgb(18, 93, 255);
 }

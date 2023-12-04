@@ -24,7 +24,7 @@ const openmenubtn=()=>{
     <ul>
         <Link to='/' className='linkstyle-disable'><li className='n-links'>Home</li></Link>
         <Link to='/about-us' className='linkstyle-disable'><li className='n-links'>About us</li></Link>
-        <Link to='/our-curriculum' className='linkstyle-disable'><li className='n-links'>Our Curriculum</li></Link>
+        <Link to='/our-curriculum' className='linkstyle-disable'><li className='n-links'>Our curriculum</li></Link>
         {/* <Link to='' className='linkstyle-disable'><li className='n-links'>Gallery</li></Link> */}
         <Link to='/contact-us' className='linkstyle-disable'><li className='n-links'>Contact us</li></Link>
     </ul>
