@@ -1,10 +1,18 @@
-import React, { useRef, useState  } from 'react';
+import React, { useRef, useState, useEffect  } from 'react';
 import emailjs from '@emailjs/browser';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { MdClose } from "react-icons/md";
 
+// import AOS from 'aos'
+// import 'aos/dist/aos.css';
+
 const Enquireform = () => {
+//   useEffect(()=>{
+
+//     AOS.init({duration:2000})
+// },[])
+
   const [selectedDate, setSelectedDate] = useState(null);
 
 

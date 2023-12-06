@@ -85,71 +85,71 @@ development is equally significant.
 <div className='row'>
 
   <div className='col-md-3 pt-2 pb-2'>
-    <div className="class-card class-red-bg">
-      <IoColorPaletteOutline className='font-red icon'/>
+  <div className="class-card class-red-bg">
+      <div className='art subj-icon'/>
       <p className='class-t-name'>Colouring & Painting</p>
     </div>
   </div>
 
   <div className='col-md-3 pt-2 pb-2'>
-    <div className="class-card class-green-bg">
-      <LuMountainSnow className='font-green icon'/>
+    <div className="class-card class-l-green-bg">
+    <div className='nature subj-icon'/>
       <p className='class-t-name'>Go green with nature</p>
     </div>
   </div>
 
   <div className='col-md-3 pt-2 pb-2'>
     <div className="class-card class-yello-bg">
-      <FaHeadphonesSimple className='font-yello icon'/>
+    <div className='accessory subj-icon'/>
       <p className='class-t-name'>Accessories making</p>
     </div>
   </div>
 
   <div className='col-md-3 pt-2 pb-2'>
-    <div className="class-card class-purple-bg">
-      <GiMaterialsScience className='font-yello icon'/>
+    <div className="class-card class-s-blue">
+    <div className='sciencefun subj-icon'/>
       <p className='class-t-name'>Fun with science</p>
     </div>
   </div>
 
   <div className='col-md-3 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-brown">
+      <div className='clay-modeling subj-icon'/>
       <p className='class-t-name'>Clay modeling</p>
     </div>
   </div>
 
   <div className='col-md-3 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-purple-bg">
+    <div className='storytime subj-icon'/>
       <p className='class-t-name'>Storytime</p>
     </div>
   </div>
 
   <div className='col-md-3 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-rubic">
+    <div className='puppet subj-icon'/>
       <p className='class-t-name'>Puppet shows</p>
     </div>
   </div>
 
   <div className='col-md-3 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-green-bg">
+      <div className='puzzel subj-icon'/>
       <p className='class-t-name'>Puzzle-solving</p>
     </div>
   </div>
 
   <div className='col-md-3 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-gold">
+    <div className='treasure subj-icon'/>
       <p className='class-t-name'>Treasure hunt</p>
     </div>
   </div>
 
   <div className='col-md-3 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-sideblue">
+    <div className='deveop subj-icon'/>
       <p className='class-t-name'>Personality development</p>
     </div>
   </div>
@@ -168,29 +168,29 @@ development is equally significant.
 <div className='row'>
 
   <div className='col-md-3 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-purple-bg">
+       <div className='rock subj-icon'/>
       <p className='class-t-name'>Rock & roll</p>
     </div>
   </div>
 
   <div className='col-md-3 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-yello-bg">
+       <div className='zumba subj-icon'/>
       <p className='class-t-name'>Zumba</p>
     </div>
   </div>
 
   <div className='col-md-3 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-sideblue">
+       <div className='freestyle subj-icon'/>
       <p className='class-t-name'>Freestyle</p>
     </div>
   </div>
 
   <div className='col-md-3 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-red-bg">
+       <div className='bharath subj-icon'/>
       <p className='class-t-name'>Bharatnatyam
 </p>
     </div>
@@ -211,22 +211,22 @@ development is equally significant.
 <div className='row'>
 
   <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-green-bg">
+       <div className='martial subj-icon'/>
       <p className='class-t-name'>Martial arts (self-defense)</p>
     </div>
   </div>
 
   <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-yello-bg">
+       <div className='meditation subj-icon'/>
       <p className='class-t-name'>Meditation</p>
     </div>
   </div>
 
   <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-red-bg">
+       <div className='yoga subj-icon'/>
       <p className='class-t-name'>Yoga</p>
     </div>
   </div>
@@ -245,15 +245,15 @@ development is equally significant.
 <div className='row'>
 
   <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-l-green-bg">
+       <div className='math subj-icon'/>
       <p className='class-t-name'>Abacus & Vedic maths</p>
     </div>
   </div>
 
   <div className='col-md-4 pt-2 pb-2'>
-    <div className="class-card">
-      <div className='social-science'/>
+    <div className="class-card class-purple-bg">
+    <div class="spinner-border spinner-border-lg text-danger"/>
       <p className='class-t-name'>Others Coming Soon ...</p>
     </div>
   </div>

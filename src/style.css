@@ -152,6 +152,7 @@ border-radius: 5px;
     align-items: center;
     gap: 25px;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
   }
 
   .class-card .icon{
@@ -196,6 +197,32 @@ color: white;
     background-image:url('./img/icons/eng-light.png');
   }
 
+  .art{
+    background-image:url('./img/icons/art.png');
+    
+  }
+  
+  .class-card:hover .art{
+    background-image:url('./img/icons/art-white.png');
+  }
+
+  .bharath{
+    background-image:url('./img/icons/bharatha.png');
+    
+  }
+  
+  .class-card:hover .bharath{
+    background-image:url('./img/icons/bharatha-white.png');
+  }
+
+  .yoga{
+    background-image:url('./img/icons/yoga.png');
+    
+  }
+  
+  .class-card:hover .yoga{
+    background-image:url('./img/icons/yoga-white.png');
+  }
 
 /* green */
   .class-green-bg{
@@ -224,14 +251,85 @@ color: #23b9a1;
     background-image:url('./img/icons/numaric-white.png');
     }
 
+    .puzzel{
+      background-image:url('./img/icons/puzzle.png');
+      
+      }
+      
+      .class-card:hover .puzzel{
+      background-image:url('./img/icons/puzzle-white.png');
+      }
+
+      .martial{
+        background-image:url('./img/icons/martial.png');
+        
+        }
+        
+        .class-card:hover .martial{
+        background-image:url('./img/icons/martial-white.png');
+        }
+    
+/* l-green */
+  .class-l-green-bg{
+    background-color: #0ecd7312;
+  }
+
+    .class-l-green-bg:hover{
+background-color: #0ecd73;
+
+  }
+
+  .font-l-green{
+color: #0ecd73;
+  }
+
+  .class-card:hover  .font-l-green{
+    color: white;
+  }
+
+  .nature{
+    background-image:url('./img/icons/nature.png');
+    
+    }
+    
+    .class-card:hover .nature{
+    background-image:url('./img/icons/nature-white.png');
+    }
+
+    .math{
+      background-image:url('./img/icons/maths.png');
+      
+      }
+      
+      .class-card:hover .math{
+      background-image:url('./img/icons/maths-white.png');
+      }
+
     /* yellow */
 
-.lit{
-  background-image:url('./img/icons/literacy-yel.png');
+.accessory{
+  background-image:url('./img/icons/accessory.png');
 }
 
-.class-card:hover .lit{
-  background-image:url('./img/icons/literacy-dark.png');
+.class-card:hover .accessory{
+  background-image:url('./img/icons/accessory-white.png');
+}
+
+.zumba{
+  background-image:url('./img/icons/zumba.png');
+}
+
+.class-card:hover .zumba{
+  background-image:url('./img/icons/zumba-white.png');
+}
+
+
+.meditation{
+  background-image:url('./img/icons/meditation.png');
+}
+
+.class-card:hover .meditation{
+  background-image:url('./img/icons/meditation-white.png');
 }
 
 .font-yello{
@@ -261,6 +359,24 @@ background-color: #f8b81f;
   background-image:url('./img/icons/science-white.png');
 }
 
+.storytime{
+  background-image:url('./img/icons/story.png');
+  
+}
+
+.class-card:hover .storytime{
+  background-image:url('./img/icons/story-white.png');
+}
+
+.rock{
+  background-image:url('./img/icons/rock.png');
+  
+}
+
+.class-card:hover .rock{
+  background-image:url('./img/icons/rock-white.png');
+}
+
 .class-purple-bg{
   background-color: #f9259612;
 }
@@ -269,7 +385,109 @@ background-color: #f8b81f;
 background-color: #f92596;
 
 }
+
+
+/*brown */
+.clay-modeling{
+  background-image:url('./img/icons/clay-modeling.png');
+  
+}
+
+.class-card:hover .clay-modeling{
+  background-image:url('./img/icons/clay-modeling-white.png');
+}
+
+.class-brown{
+  background-color: #fff3dcb0;
+}
+
+  .class-brown:hover{
+background-color: #C69774;
+}
+
+/*skyblue */
+.sciencefun{
+  background-image:url('./img/icons/sciencefun.png');
+  
+}
+
+.class-card:hover .sciencefun{
+  background-image:url('./img/icons/sciencefun-white.png');
+}
+
+.class-s-blue{
+  background-color: #39c0fa12;
+}
+
+  .class-s-blue:hover{
+background-color: #39c0fa;
+}
+
+/*rubic */
+.puppet{
+  background-image:url('./img/icons/puppet-white.png');
+  
+}
+
+.class-card:hover .puppet{
+  background-image:url('./img/icons/puppet.png');
+}
+
+.class-rubic{
+  background-color: #8e56ff12;
+}
+
+  .class-rubic:hover{
+background-color: #8e56ff;
+}
+
+/*gold */
+.treasure{
+  background-image:url('./img/icons/treasure.png');
+  
+}
+
+.class-card:hover .treasure{
+  background-image:url('./img/icons/treasure-white.png');
+}
+
+.class-gold{
+  background-color: #f8941f12;
+}
+
+  .class-gold:hover{
+background-color: #f8941f;
+}
+
+/*sideblue */
+.deveop{
+  background-image:url('./img/icons/development.png');
+  
+}
+
+.class-card:hover .deveop{
+  background-image:url('./img/icons/development-white.png');
+}
+
+.freestyle{
+  background-image:url('./img/icons/freestyle.png');
+  
+}
+
+.class-card:hover .freestyle{
+  background-image:url('./img/icons/freestyle-white.png');
+}
+
+.class-sideblue{
+  background-color: #5866eb12;
+}
+
+  .class-sideblue:hover{
+background-color: #5866eb;
+}
+
 /* end */
+
 
 .class-t-name{
   color: black;
