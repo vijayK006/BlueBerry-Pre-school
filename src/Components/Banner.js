@@ -35,7 +35,7 @@ beyond the parameters of bookish education because we know the basics of child m
 As a child does something not because the teacher told but an inner curiosity in him/her the
 desire to do it.</p> 
 
-        <Link className="banner-btn" onClick={openFormModule}>Join Us Now</Link>
+        <Link className="banner-btn default-font" onClick={openFormModule}>Enroll Now</Link>
 
        
 
@@ -51,7 +51,7 @@ desire to do it.</p>
 </div>
       </div>
     </div>
-      
+ 
 <div className='tagline-section py-4'>
 <div className='container'>
   <div className='row'>
@@ -60,8 +60,8 @@ desire to do it.</p>
       <div className='heightlight-card'>
 <MdVideoSettings className='icon'/>
 <div className='heightlight-content'>
-  <p>3020</p>
-<h5>Online Course</h5>
+  <p>Schoool</p>
+<h5>Events</h5>
 </div>
       </div>
 
@@ -71,8 +71,8 @@ desire to do it.</p>
       <div className='heightlight-card'>
 <FaPersonChalkboard className='icon'/>
 <div className='heightlight-content'>
-  <p>Top</p>
-<h5>Instructors</h5>
+  <p>School </p>
+<h5>Gallery</h5>
 </div>
       </div>
 
@@ -82,8 +82,8 @@ desire to do it.</p>
       <div className='heightlight-card'>
 <PiCertificate className='icon'/>
 <div className='heightlight-content'>
-  <p>Online</p>
-<h5>Certifications</h5>
+  <p>Our</p>
+<h5>Certification</h5>
 </div>
       </div>
 
@@ -93,8 +93,8 @@ desire to do it.</p>
       <div className='heightlight-card'>
 <BsPeople className='icon'/>
 <div className='heightlight-content'>
-  <p>6000</p>
-<h5>Members</h5>
+  <p>Staff</p>
+<h5>Details</h5>
 </div>
       </div>
 

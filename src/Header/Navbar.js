@@ -2,6 +2,7 @@ import React from 'react';
 import logoImg from '../img/logo/logo.jpeg';
 import { Link } from 'react-router-dom';
 import { MdMenu } from "react-icons/md";
+import { FaChalkboardTeacher } from "react-icons/fa";
 
 const Navbar = () => {
 
@@ -31,8 +32,10 @@ const openmenubtn=()=>{
 </div>
     
 <div className='nav-btn'>
-    <Link to='/' className='linkstyle-disable'><p>Work with us</p></Link>
+    <Link to='/' className='linkstyle-disable'><p>Career <FaChalkboardTeacher/></p></Link>
 </div>
+
+
 
 <div className='menubar' onClick={openmenubtn}>
  <MdMenu className='icon'/>

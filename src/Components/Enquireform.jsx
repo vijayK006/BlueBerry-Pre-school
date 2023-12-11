@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { MdClose } from "react-icons/md";
+import SuccessMessage from './SuccessMessage';
 
 // import AOS from 'aos'
 // import 'aos/dist/aos.css';
@@ -29,10 +30,22 @@ const Enquireform = () => {
 
     e.preventDefault();
 
-    emailjs.sendForm('service_s6yscqg', 'template_ics9tb9', form.current, 'ctLMl35oWO-hYo21q')
+    emailjs.sendForm('service_o2d6q4m', 'template_d57ei2q', form.current, '1mYe-safAz0MXHu6Y')
       .then((result) => {
           console.log(result.text);
           console.log('message sent successfully');
+          document.getElementById('successmsg').classList.add('showmessage');
+
+          // Clear form inputs
+          form.current.reset();
+
+          setTimeout(() => {
+            document.getElementById('successmsg').classList.remove('showmessage');
+document.getElementById('formModule').classList.remove('togglemodel');
+          }, 3000);
+
+
+
       }, (error) => {
           console.log(error.text);
           console.log('message not-sent successfully');
@@ -54,11 +67,11 @@ document.getElementById('formModule').classList.remove('togglemodel');
 <h4 className='default-font'>Admission Enquire Form</h4>
 <MdClose className='icon' onClick={closeForm}/>
 </div>
-  <form ref={form} >
+  <form ref={form} onSubmit={sendEmail}>
 
 <div className='row'>
 
-  <div className='col-md-4  pt-1 pb-1'>
+  <div className='col-md-4  pt-1 pb-1' style={{display:"none"}}>
 
   <DatePicker
         selected={selectedDate}
@@ -71,12 +84,12 @@ document.getElementById('formModule').classList.remove('togglemodel');
 
   <div className='col-md-4  pt-1 pb-1'>
  
-  <input type="text" name="child_name" className='form-control' placeholder='Enter Child Name'/>
+  <input type="text" name="child_name" className='form-control' placeholder='Enter Child Name' required/>
   </div>
 
   <div className='col-md-4  pt-1 pb-1'>
 
-  <input type="number" name="child_age" className='form-control' placeholder='Enter Child Age'/>
+  <input type="number" name="child_age" className='form-control' placeholder='Enter Child Age' required/>
   </div>
 
   <div className='col-md-4  pt-1 pb-1'>
@@ -86,13 +99,14 @@ document.getElementById('formModule').classList.remove('togglemodel');
         placeholderText="Select Child DOB"
         className='form-control'
         name='dob_child'
+        required
       />
 {/* <input type="number" name="dob_child" className='form-control' placeholder='Enter Child DOB'/> */}
 </div>
 
-  <div className='col-md-4  pt-1 pb-1'>
+  <div className='col-md-6  pt-1 pb-1'>
 
-    <select class="form-control" id="sel1" name="class_admission">
+    <select class="form-control" id="sel1" name="class_admission" required>
       <option value="">Select Addmission for Class</option>
       <option value="PlayGroup">PlayGroup</option>
       <option value="Nursery">Nursery</option>
@@ -102,9 +116,9 @@ document.getElementById('formModule').classList.remove('togglemodel');
   </div>
 
 
-  <div className='col-md-4  pt-1 pb-1'>
+  <div className='col-md-6  pt-1 pb-1'>
 
-  <input type="text" name="attended_class" className='form-control' placeholder='Enter Last School Attended'/>
+  <input type="text" name="attended_class" className='form-control' placeholder='Enter Last School Attended' required/>
   </div>
 
   <div className='col-md-12  pt-3 pb-1'>
@@ -114,27 +128,27 @@ document.getElementById('formModule').classList.remove('togglemodel');
 
   <div className='col-md-4  pt-1 pb-1'>
 
-  <input type="text" name="parent_name" className='form-control' placeholder='Enter Parent Name'/>
+  <input type="text" name="parent_name" className='form-control' placeholder='Enter Parent Name' required/>
   </div>
 
   <div className='col-md-4  pt-1 pb-1'>
 
-  <input type="text" name="phone_no" className='form-control' placeholder='Enter Contact Number'/>
+  <input type="text" name="phone_no" className='form-control' placeholder='Enter Contact Number' required/>
   </div>
 
   <div className='col-md-4 pt-1 pb-1'>
   
-  <input type="text" name="email_id" className='form-control' placeholder='Enter your@gmail.com'/>
+  <input type="text" name="email_id" className='form-control' placeholder='Enter your@gmail.com' required/>
   </div>
 
   <div className='col-md-4  pt-1 pb-1'>
 
-  <input type="text" name="occupation" className='form-control' placeholder='Enter Your Occupation'/>
+  <input type="text" name="occupation" className='form-control' placeholder='Enter Your Occupation' required/>
   </div>
 
   <div className='col-md-4  pt-1 pb-1'>
  
-  <input type="text" name="address" className='form-control' placeholder='Enter Your Address'/>
+  <input type="text" name="address" className='form-control' placeholder='Enter Your Address' required/>
   </div>
 
 
@@ -144,7 +158,7 @@ document.getElementById('formModule').classList.remove('togglemodel');
 
   <div className='col-md-6  pt-1 pb-1'>
   <label>I got to know from </label>
-    <select class="form-control mt-2" id="sel1" name="know_from">
+    <select class="form-control mt-2" id="sel1" name="know_from" required>
       <option value="">Select here ...</option>
       <option value="Leaflet">Leaflet</option>
       <option value="Facebook">Facebook</option>
@@ -165,43 +179,15 @@ document.getElementById('formModule').classList.remove('togglemodel');
 </div>
 
 </div>
-    
 
-    
-      
-  
-
-  
-  
-
-   
-      
- 
-
-   
-      
-
-
-
-      
-   
-
-     
-   
-
-    
-   
-
-   
-
-  
 </form>
 </div>
 
 
       </div>
+<SuccessMessage/>
     </>
   )
 }
 
-export default Enquireform
+export default Enquireform;
